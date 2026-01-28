@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przewodnik po Paryżu</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="style/img/ChatGPT Image 19 янв. 2026 г., 15_14_03.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+ 
+
+<!-- HEADER -->
+<header>
+   <nav class="top-nav">
+  <a href="#miejsca">Atrakcje</a>
+  <a href="#restaurants">Restauracje</a>
+  <a href="#travel">Podróż</a>
+  <a href="#faq-section">FAQ</a>
+</nav>
+
+<!--Waluta-->
+<div class="currency-dropdown">
+  <button class="currency-toggle" id="currencyToggle" aria-label="Kurs walut">
+    💶
+  </button>
+
+  <div class="currency-panel" id="currencyPanel">
+    <p class="currency-title">Kurs walut</p>
+
+    <p class="currency-rate">
+      1 EUR = <strong id="eurRate">4.32</strong> PLN
+    </p>
+
+    <div class="currency-calc">
+      <input type="number" id="eurInput" placeholder="EUR" value="50">
+      <span>=</span>
+      <span id="plnOutput">216.00 zł</span>
+    </div>
+
+    <p class="currency-note">Kurs orientacyjny</p>
+  </div>
+</div>
+
+
+
+
+
+    <h1>Przewodnik po Paryżu</h1>
+    <h2 class="headerh2">Miasto miłości i sztuki</h2>
+
+    <a class="aaa" href="#main">Czytaj więcej</a>
+</header>
+
+
+
+<!-- MIEJSCA -->
+<main id="main">
+<section id="miejsca">
+    <h2>Miejsca warte odwiedzenia</h2>
+
+    <div class="Miejsca_odwiedzenie">
+
+        <!-- Wieża Eiffla -->
+        <div class="M1">
+            <div class="fototeks">
+                <img src="style/img/Wieża Eiffla.jpg" alt="Wieża Eiffla">
+                <div class="teks_on">Wieża Eiffla</div>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel porro ipsum ducimus.
+                Et, illo quo?
+            </p>
+            <a href="#" class="btn">Czytaj więcej</a>
+        </div>
+
+        <!-- Luwr -->
+        <div class="M1">
+            <div class="fototeks">
+                <img src="style/img/Luwr.jpg" alt="Luwr">
+                <div class="teks_on">Luwr</div>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel porro ipsum ducimus.
+                Et, illo quo?
+            </p>
+            <a href="#" class="btn">Czytaj więcej</a>
+        </div>
+
+        <!-- Notre-Dame -->
+        <div class="M1">
+            <div class="fototeks">
+                <img src="style/img/Katedra Notre-Dame.jpg" alt="Notre-Dame">
+                <div class="teks_on">Katedra Notre-Dame</div>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel porro ipsum ducimus.
+                Et, illo quo?
+            </p>
+            <a href="#" class="btn">Czytaj więcej</a>
+        </div>
+
+        <!-- Montmartre -->
+        <div class="M1">
+            <div class="fototeks">
+                <img src="style/img/Montmartre.jpg" alt="Montmartre">
+                <div class="teks_on">Montmartre</div>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel porro ipsum ducimus.
+                Et, illo quo?
+            </p>
+            <a href="#" class="btn">Czytaj więcej</a>
+        </div>
+
+    </div>
+</section>
+</main>
+
+
+<!-- RESTAURACJE -->
+<section  id="restaurants" class="restaurants">
+  <h2>Najlepsze Restauracje</h2>
+
+  <div class="restaurants-grid">
+
+    <div class="restaurant-card reveal">
+      <div class="restaurant-img img-1"></div>
+
+      <div class="restaurant-content">
+        <div class="restaurant-meta">
+          <span class="badge">MICHELIN ✻</span>
+          <span class="rating">★★★★★</span>
+        </div>
+
+        <h3>L'Évadé</h3>
+
+        <p class="restaurant-location">
+          <i class="fa-solid fa-location-dot"></i> 23 rue Clauzel, 75009 Paris France
+        </p>
+
+        <p class="restaurant-desc">French, Healthy, $$$$
+        </p>
+
+        <a href="https://www.tripadvisor.com/Restaurant_Review-g187147-d26432208-Reviews-L_Evade-Paris_Ile_de_France.html" target="_blank" class="restaurant-btn">Zobacz więcej</a>
+      </div>
+    </div>
+
+    <div class="restaurant-card reveal">
+      <div class="restaurant-img img-2"></div>
+      <div class="restaurant-content">
+        <div class="restaurant-meta">
+          <span class="badge">TOP MICHELIN</span>
+          <span class="rating">★★★★☆</span>
+        </div>
+        <h3>Le Boissy d'Anglas</h3>
+        <p class="restaurant-location">
+          <i class="fa-solid fa-location-dot"></i> 41 Rue Boissy d'Anglas, 75008 Paris France
+        </p>
+        <p class="restaurant-desc">
+          French, Bar, $$ - $$$
+        </p>
+        <a href="https://www.tripadvisor.com/Restaurant_Review-g187147-d12932966-Reviews-Le_Boissy_d_Anglas-Paris_Ile_de_France.html"  target="_blank" class="restaurant-btn">Zobacz więcej</a>
+      </div>
+    </div>
+
+    <div class="restaurant-card reveal">
+      <div class="restaurant-img img-3"></div>
+      <div class="restaurant-content">
+        <div class="restaurant-meta">
+          <span class="badge">MICHELIN ✻</span>
+          <span class="rating">★★★★★</span>
+        </div>
+        <h3>Signature Montmartre</h3>
+        <p class="restaurant-location">
+          <i class="fa-solid fa-location-dot"></i> 12 Rue Des Trois Frères, 75018 Paris France
+        </p>
+        <p class="restaurant-desc">
+          French, European, $$ - $$$
+        </p>
+        <a href="https://www.tripadvisor.com/Restaurant_Review-g187147-d13307509-Reviews-Signature_Montmartre-Paris_Ile_de_France.html" target="_blank" class="restaurant-btn">Zobacz więcej</a>
+      </div>
+    </div>
+
+    <div class="restaurant-card reveal">
+      <div class="restaurant-img img-4"></div>
+      <div class="restaurant-content">
+        <div class="restaurant-meta">
+          <span class="badge">MICHELIN ✻</span>
+          <span class="rating">★★★★★</span>
+        </div>
+        <h3>Arnaud Nicolas</h3>
+        <p class="restaurant-location">
+          <i class="fa-solid fa-location-dot"></i> 46, Avenue de la Bourdonnais, 75007 Paris France
+        </p>
+        <p class="restaurant-desc">
+          French, European, $$$$
+        </p>
+        <a href="https://www.tripadvisor.com/Restaurant_Review-g187147-d12423849-Reviews-Arnaud_Nicolas-Paris_Ile_de_France.html"  target="_blank" class="restaurant-btn">Zobacz więcej</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- PLAN PODRÓŻY -->
+<section  id="travel" class="travel-info">
+  <h2>Zaplanuj swoją podróż</h2>
+
+  <div class="travel-grid">
+
+    <!-- LOTY -->
+    <div class="travel-card">
+      <div class="travel-icon">
+        <i class="fa-solid fa-plane-departure"></i>
+      </div>
+      <h3>Loty do Paryża</h3>
+      <p>
+        Sprawdź najlepsze połączenia lotnicze z Polski i Europy.
+        Porównuj ceny i linie lotnicze.
+      </p>
+      <a href="https://www.kiwi.com/pl/?destination=paryz-francja&origin=-" target="_blank" class="travel-btn">Sprawdź loty</a>
+    </div>
+
+    <!-- TRANSFER -->
+    <div class="travel-card">
+      <div class="travel-icon">
+        <i class="fa-solid fa-taxi"></i>
+      </div>
+      <h3>Transfer z lotniska</h3>
+      <p>
+        Dojazd z lotnisk Charles de Gaulle i Orly do centrum miasta.
+        Taxi, metro, autobus.
+      </p>
+      <a href="https://connectotransfers.com/en/paris-charles-de-gaulle-airport-transfers?msclkid=286a08613cfd1a168a4a61180d28649a&utm_source=bing&utm_medium=cpc&utm_campaign=20-EN-France&utm_term=transfer%20to%20paris%20airport&utm_content=Paris%20CDG%20Airport" target="_blank" class="travel-btn">Zobacz opcje</a>
+    </div>
+
+    <!-- HOTELE -->
+    <div class="travel-card">
+      <div class="travel-icon">
+        <i class="fa-solid fa-hotel"></i>
+      </div>
+      <h3>Hotele i noclegi</h3>
+      <p>
+        Wybierz idealny hotel – od luksusowych apartamentów
+        po budżetowe noclegi.
+      </p>
+      <a href="https://www.booking.com/index.pl.html?label=msn-CESE3PShVBU8l4Tl6GIu0w-80470694731304%3Atikwd-80470869183864%3Aloc-151%3Aneo%3Amte%3Alp137562%3Adec%3Acid518941203%3Aagid1287529415418105&utm_source=bing&utm_medium=cpc&utm_term=CESE3PShVBU8l4Tl6GIu0w&utm_content=Booking+-+Desktop&utm_campaign=Polish_Poland+PL+PL&aid=2369661&pagename=pl-pl-booking-desktop&msclkid=259eeb67bb3017c78098821e8926321f&chal_t=1769550360419&force_referer=https%3A%2F%2Fpl.search.yahoo.com%2F&lang=pl&soz=1&lang_changed=1" target="_blank" class="travel-btn">Znajdź hotel</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- KALKULATOR  -->
+<section class="trip-calculator">
+
+  <button class="calc-toggle" id="calcToggle">
+    Kalkulator kosztów podróży
+    <span class="arrow">▼</span>
+  </button>
+
+  <div class="calc-wrapper" id="calcWrapper">
+
+    <p class="calc-subtitle">
+      Cena jest orientacyjna i aktualna na 28.01.2026
+    </p>
+
+    <div class="calc-box">
+
+      <div class="calc-grid">
+
+        <div class="calc-field">
+          <label>Miasto wylotu</label>
+          <select id="city">
+            <option value="warszawa">Warszawa</option>
+            <option value="krakow">Kraków</option>
+            <option value="wroclaw">Wrocław</option>
+            <option value="gdansk">Gdańsk</option>
+          </select>
+        </div>
+
+        <div class="calc-field">
+          <label>Liczba osób</label>
+          <input type="number" id="people" min="1" value="2">
+        </div>
+
+        <div class="calc-field">
+          <label>Liczba nocy</label>
+          <input type="number" id="nights" min="1" value="3">
+        </div>
+
+        <div class="calc-field">
+          <label>Standard hotelu</label>
+          <select id="hotel">
+            <option value="3">⭐⭐⭐ (budżet)</option>
+            <option value="4">⭐⭐⭐⭐ (komfort)</option>
+            <option value="5">⭐⭐⭐⭐⭐ (luksus)</option>
+          </select>
+        </div>
+
+        <div class="calc-field">
+          <label>Transfer z lotniska</label>
+          <select id="transfer">
+            <option value="none">Brak</option>
+            <option value="shared">Wspólny</option>
+            <option value="private">Prywatny</option>
+          </select>
+        </div>
+
+      </div>
+
+      <button class="calc-btn" onclick="calculateTrip()">
+        Oblicz koszt
+      </button>
+
+      <div class="calc-result">
+        <p>Szacunkowy koszt podróży:</p>
+        <span id="price">—</span>
+        <p class="calc-date" id="calc-date"></p>
+        <div class="calc-breakdown" id="breakdown"></div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+<!-- NEWSLETTER -->
+<section class="Newsletter">
+    <h3 class="h3new">Newsletter</h3>
+    <p class="pnew">
+        Zapisz się, aby otrzymywać najnowsze informacje o Paryżu.
+    </p>
+
+    <form>
+        <div class="Dane_uzytkow">
+            <input type="text" placeholder="Podaj imię" required>
+            <input type="email" placeholder="Podaj email" required>
+        </div>
+
+        <label class="labelnew">
+            <input type="checkbox" required>
+            Zapoznałem/am się z treścią regulaminu i akceptuję go.
+        </label>
+
+        <button class="btnnew" type="submit">Zapisz się!</button>
+    </form>
+</section>
+
+
+<!-- KONTAKT -->
+<section class="kontact">
+    <h3 class="h3cont">Skontaktuj się z nami</h3>
+
+    <div class="div_kontact">
+        <div class="kontakt-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>ul.Kurkawa/26 Wrocłam</span>
+        </div>
+
+        <div class="kontakt-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>paryz@przewodnik.pl</span>
+        </div>
+
+        <div class="kontakt-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>+48 123 456 789</span>
+        </div>
+    </div>
+</section>
+
+
+<!-- OPINIE -->
+<section class="opinie">
+    <h3 class="h3opin">Zobacz co o nas piszą</h3>
+
+    <div class="div_opinie">
+
+        <div class="opinion">
+            <p class="popin">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <h4 class="h4opin">Mateusz, Żabka</h4>
+        </div>
+
+        <div class="opinion">
+            <p class="popin">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <h4 class="h4opin">Ola, Forbes</h4>
+        </div>
+
+        <div class="opinion">
+            <p class="popin">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <h4 class="h4opin">Kamila, Traveller</h4>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- FAQ -->
+<section id="faq-section" class="faq-section">
+    <h2>FAQ</h2>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            <span>Jak zorganizować wyjazd na własną rękę?</span>
+            <span class="arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+            <p>treść odpowiedzi.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            <span>Jak korzystać z komunikacji miejskiej?</span>
+            <span class="arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+            <p>treść odpowiedzi.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            <span>Jakie są atrakcje dla dzieci?</span>
+            <span class="arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+            <p>treść odpowiedzi.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            <span>Jakie są opcje płatności?</span>
+            <span class="arrow">▼</span>
+        </button>
+        <div class="faq-answer">
+            <p>treść odpowiedzi.</p>
+        </div>
+    </div>
+
+    <button class="faq-more-btn">Zobacz więcej FAQ</button>
+</section>
+
+
+<!-- POGODA -->
+<section class="weather">
+
+  <div class="weather-box">
+
+    <!-- LEWA STRONA -->
+    <div class="weather-main">
+      <p class="weather-city">Paryż</p>
+
+      <img id="weather-icon" alt="Ikona pogody">
+
+      <p id="weather-temp">-- °C</p>
+
+      <span id="weather-desc" class="weather-badge">
+        Ładowanie pogody...
+      </span>
+    </div>
+
+    <!-- PRAWA STRONA -->
+    <div class="weather-details">
+      <p><i class="fa-solid fa-sun"></i> Wschód słońca: <span id="sunrise">--:--</span></p>
+      <p><i class="fa-solid fa-moon"></i> Zachód słońca: <span id="sunset">--:--</span></p>
+      <p><i class="fa-solid fa-wind"></i> Wiatr: <span id="wind">--</span> m/s</p>
+      <p><i class="fa-solid fa-droplet"></i> Wilgotność: <span id="humidity">--</span>%</p>
+      <p><i class="fa-solid fa-gauge-high"></i> Ciśnienie: <span id="pressure">--</span> hPa</p>
+      <p><i class="fa-solid fa-eye"></i> Widoczność: <span id="visibility">--</span> km</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- MAPA -->
+<section class="mapa">
+    <h3 class="h3map">Sprawdź mapę Paryża</h3>
+    <iframe class="linkmap"
+        src="https://www.google.com/maps?hl=pl&output=embed&z=12&q=48.8566,2.3522"
+        width="100%" height="450" allowfullscreen loading="lazy">
+    </iframe>
+</section>
+
+
+<!-- STOPKA -->
+<footer class="footer_stopka">
+    <div class="social">
+        <p class="pfooter">Obserwuj nas:</p>
+
+        <a href="https://www.facebook.com/" target="_blank">
+            <img class="imgfooter" src="style/img/3225194_app_facebook_logo_media_popular_icon.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img class="imgfooter" src="style/img/1298747_instagram_brand_logo_social media_icon.png" alt="Instagram">
+        </a>
+        <a href="https://www.tiktok.com/" target="_blank">
+            <img class="imgfooter" src="style/img/8547041_tiktok_icon.png" alt="TikTok">
+        </a>
+        <a href="https://www.youtube.com/" target="_blank">
+            <img class="imgfooter" src="style/img/317714_video_youtube_icon.png" alt="YouTube">
+        </a>
+        <a href="https://pinterest.com/" target="_blank">
+            <img class="imgfooter" src="style/img/334715_pinterest_icon.png" alt="Pinterest">
+        </a>
+    </div>
+
+    <p class="pfooter">© 2025 WSB Merito Gdańsk</p>
+    <p class="pfooter">Denys Serbin</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
